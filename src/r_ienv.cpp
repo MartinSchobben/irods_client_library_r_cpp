@@ -16,7 +16,8 @@ using namespace Rcpp;
 //' r_ienv
 //' Shows current iRODS environment settings
 //'
-std::map<std::string, std::string> ienv( ) {
+// [[Rcpp::export]]
+std::map<std::string, std::string> ienv_( ) {
 
   std::map<std::string, std::string> returnEnv;
 

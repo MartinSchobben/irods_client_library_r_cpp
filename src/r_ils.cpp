@@ -27,7 +27,8 @@ using namespace Rcpp;
 //' Lists collections and data objects in iRODS
 //' @param args "ils" one or several iRODS data-object (file) or collection (directory) paths
 //' @return A data frame with information about collections and data objects under the supplied paths
-Rcpp::DataFrame ils( std::vector< std::string > args )
+// [[Rcpp::export]]
+Rcpp::DataFrame ils_( std::vector< std::string > args )
 {
     int status;
     rodsEnv env;

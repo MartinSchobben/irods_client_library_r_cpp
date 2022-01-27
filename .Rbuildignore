@@ -1,6 +1,7 @@
-^RcppExports\.cpp$
-^RcppExports\.R$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^LICENSE$
 ^README\.Rmd$
 ^README\.md$
+^build-rirods\.sh$
+^Dockerfile$
